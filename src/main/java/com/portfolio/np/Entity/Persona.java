@@ -53,7 +53,7 @@ public class Persona {
     }
     
     public String getApellido() {
-    	return nombre;
+    	return apellido;
     }
     
     public void setApellido(String apellido) {
