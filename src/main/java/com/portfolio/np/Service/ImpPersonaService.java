@@ -23,7 +23,7 @@ public class ImpPersonaService {
     }
     
     public Optional<Persona> getByNombre(String nombre){
-        return ipersonaRepository.findByNombreE(nombre);
+        return ipersonaRepository.findByNombre(nombre);
     }
     
     public void save(Persona persona){
