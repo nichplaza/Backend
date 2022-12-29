@@ -42,5 +42,3 @@ public class ImpPersonaService {
         return ipersonaRepository.existsByNombre(nombre);
     }
 }
-
-}
